@@ -71,6 +71,109 @@ Book Appointment
 
 
 <!-- CONTACT SECTION -->
+<!-- DOCTOR APPOINTMENT SLOTS -->
+
+<section class="services">
+
+<div class="container">
+
+<h2 class="section-title">
+Doctor Evening Appointment
+</h2>
+
+<p style="text-align:center; margin-bottom:30px;">
+Doctor Available: 5:00 PM – 8:30 PM  
+Each Patient: 10 Minutes
+</p>
+
+<div style="text-align:center; margin-bottom:25px;">
+
+<label style="font-weight:600;">
+📅 Select Appointment Date
+</label>
+
+<br><br>
+
+<input type="date"
+id="appointmentDate"
+style="
+padding:12px;
+font-size:16px;
+border-radius:6px;
+border:1px solid #ccc;
+">
+
+</div>
+<div class="slots-grid">
+
+<!-- SLOT 1 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%205:00%20PM" class="slot-btn">5:00 PM</a>
+
+<!-- SLOT 2 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%205:10%20PM" class="slot-btn">5:10 PM</a>
+
+<!-- SLOT 3 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%205:20%20PM" class="slot-btn">5:20 PM</a>
+
+<!-- SLOT 4 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%205:30%20PM" class="slot-btn">5:30 PM</a>
+
+<!-- SLOT 5 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%205:40%20PM" class="slot-btn">5:40 PM</a>
+
+<!-- SLOT 6 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%205:50%20PM" class="slot-btn">5:50 PM</a>
+
+<!-- SLOT 7 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%206:00%20PM" class="slot-btn">6:00 PM</a>
+
+<!-- SLOT 8 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%206:10%20PM" class="slot-btn">6:10 PM</a>
+
+<!-- SLOT 9 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%206:20%20PM" class="slot-btn">6:20 PM</a>
+
+<!-- SLOT 10 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%206:30%20PM" class="slot-btn">6:30 PM</a>
+
+<!-- SLOT 11 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%206:40%20PM" class="slot-btn">6:40 PM</a>
+
+<!-- SLOT 12 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%206:50%20PM" class="slot-btn">6:50 PM</a>
+
+<!-- SLOT 13 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%207:00%20PM" class="slot-btn">7:00 PM</a>
+
+<!-- SLOT 14 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%207:10%20PM" class="slot-btn">7:10 PM</a>
+
+<!-- SLOT 15 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%207:20%20PM" class="slot-btn">7:20 PM</a>
+
+<!-- SLOT 16 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%207:30%20PM" class="slot-btn">7:30 PM</a>
+
+<!-- SLOT 17 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%207:40%20PM" class="slot-btn">7:40 PM</a>
+
+<!-- SLOT 18 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%207:50%20PM" class="slot-btn">7:50 PM</a>
+
+<!-- SLOT 19 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%208:00%20PM" class="slot-btn">8:00 PM</a>
+
+<!-- SLOT 20 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%208:10%20PM" class="slot-btn">8:10 PM</a>
+
+<!-- SLOT 21 -->
+<a href="https://wa.me/918943904357?text=Hello%20Doctor,%20I%20want%20appointment%20at%208:20%20PM" class="slot-btn">8:20 PM</a>
+
+</div>
+
+</div>
+
+</section>
 
 <section class="contact">
 
@@ -128,57 +231,13 @@ India
 
 <p>
 Monday – Saturday  
-Morning: 8:30 AM – 1:00 PM  
-Evening: 05:00 PM – 8:30 PM
+Morning: 08:30 AM – 1:00 PM  
+Evening: 05:00 PM – 08:30 PM
 </p>
 
 </div>
 
 </div>
-
-
-
-<!-- CONTACT FORM -->
-
-<div class="booking-widget">
-
-  <h2 class="section-title" style="margin-bottom: 30px;">
-    Book an Appointment
-  </h2>
-
-  <form class="contact-form" id="bookingForm" onsubmit="sendToWhatsApp(event)">
-
-    <select id="bookService" required>
-      <option value="" disabled selected>Select Service Required *</option>
-      <option value="Doctor Consultancy">👨‍⚕️ Doctor Consultancy</option>
-      <option value="Lab Tests">🧪 Laboratory Home Collection / Clinic Test</option>
-      <option value="Pharmacy Medicines">💊 Order Pharmacy Medicines</option>
-    </select>
-
-    <input type="text" id="bookName" placeholder="Patient Full Name *" required>
-    <input type="tel" id="bookPhone" placeholder="WhatsApp / Phone Number *" required>
-
-    <div class="form-row">
-      <input type="date" id="bookDate" required title="Preferred Date">
-      <select id="bookTime" required>
-        <option value="" disabled selected>Preferred Time *</option>
-        <option value="Morning">Morning (8:30 AM – 1:00 PM)</option>
-        <option value="Evening">Evening (5:00 PM – 8:30 PM)</option>
-        <option value="Immediate">Emergency / Immediate</option>
-      </select>
-    </div>
-
-    <textarea id="bookMessage" placeholder="Any specific symptoms, required lab tests, or medicine list..." rows="4"></textarea>
-
-    <button type="submit" class="btn-main" style="width: 100%; margin-left: 0; font-size: 18px;">
-      Confirm Booking Request
-    </button>
-
-  </form>
-
-</div>
-
-
 
 <!-- MAP SECTION -->
 
@@ -203,8 +262,6 @@ Evening: 05:00 PM – 8:30 PM
   </div>
 
 </div>
-
-
 
 </div>
 
@@ -255,47 +312,6 @@ Changanassery
 </div>
 
 </footer>
-
-<script>
-  function sendToWhatsApp(event) {
-    event.preventDefault(); // പേജ് റീഫ്രഷ് ആകുന്നത് തടയാൻ
-
-    // ഫോമിലെ വിവരങ്ങൾ എടുക്കുന്നു
-    const service = document.getElementById('bookService').value;
-    const name = document.getElementById('bookName').value;
-    const phone = document.getElementById('bookPhone').value;
-    const date = document.getElementById('bookDate').value;
-    const time = document.getElementById('bookTime').value;
-    const message = document.getElementById('bookMessage').value;
-
-    const clinicNumber = "918943904357"; // മാലിയിൽ മെഡിക്കൽ സെന്റർ നമ്പർ
-
-    // വാട്സാപ്പ് മെസ്സേജ് ഫോർമാറ്റ് ചെയ്യുന്നു
-    let whatsappMessage = `*New Appointment Request*%0A%0A`;
-    whatsappMessage += `*Service:* ${service}%0A`;
-    whatsappMessage += `*Patient Name:* ${name}%0A`;
-    whatsappMessage += `*Contact:* ${phone}%0A`;
-    whatsappMessage += `*Date:* ${date}%0A`;
-    whatsappMessage += `*Time:* ${time}%0A`;
-    
-    if(message.trim() !== "") {
-      whatsappMessage += `*Details:* ${message}%0A`;
-    }
-
-    // വാട്സാപ്പിലേക്ക് റീഡയറക്ട് ചെയ്യുന്നു
-    const whatsappURL = `https://wa.me/${clinicNumber}?text=${whatsappMessage}`;
-    window.open(whatsappURL, '_blank');
-  }
-
-  // പഴയ മൊബൈൽ മെനു സ്ക്രിപ്റ്റ് ഇവിടെ തന്നെ വെക്കാം
-  const toggle = document.getElementById("menu-toggle");
-  const nav = document.getElementById("nav-menu");
-  if(toggle){
-    toggle.addEventListener("click", function(){
-      nav.classList.toggle("active");
-    });
-  }
-</script>
 
 </body>
 </html>

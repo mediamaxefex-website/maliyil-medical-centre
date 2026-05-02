@@ -12,6 +12,8 @@
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://maliyilmed.in/">
+<meta property="og:title" content="Maliyil Medical Centre | Trusted Healthcare">
+<meta property="og:description" content="Expert medical care, advanced lab, and 24/7 pharmacy services at Maliyil Medical Centre, Changanassery.">
 <meta property="og:image" content="https://maliyilmed.in/images/og-image.jpg">
   <link rel="stylesheet" href="style.css">
 
@@ -20,7 +22,35 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <script type="application/ld+json">
-
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Maliyil Medical Centre",
+  "image": "https://maliyilmed.in/images/logo.webp",
+  "@id": "https://maliyilmed.in/",
+  "url": "https://maliyilmed.in/",
+  "telephone": "+919447039929",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Vazhoor Road, Near SB High School",
+    "addressLocality": "Changanassery",
+    "addressRegion": "Kerala",
+    "addressCountry": "IN"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
 }
 </script>
 </head>
@@ -134,6 +164,7 @@ alt="Doctor Consultation">
 </div>
 
 </section>
+
   <!-- PHARMACY HIGHLIGHT -->
 
   <section class="services">
@@ -491,54 +522,5 @@ Changanassery
 </div>
 
 </footer>
-
-
-
-  <!-- WHATSAPP FLOAT -->
-
-  <a href="https://wa.me/918943904357" class="whatsapp-float" target="_blank">
-
-    <i class="fab fa-whatsapp"></i>
-
-  </a>
-<script>
-
-const toggle =
-document.getElementById("menu-toggle");
-
-const nav =
-document.getElementById("nav-menu");
-
-const navLinks =
-document.querySelectorAll(".nav a");
-
-/* Toggle menu */
-
-if(toggle){
-
-toggle.addEventListener("click", function(){
-
-nav.classList.toggle("active");
-
-});
-
-}
-
-/* Close menu when link clicked */
-
-navLinks.forEach(function(link){
-
-link.addEventListener("click", function(){
-
-nav.classList.remove("active");
-
-});
-
-});
-
-</script>
-
-<script src="script.js"></script>
-
 </body>
 </html>
